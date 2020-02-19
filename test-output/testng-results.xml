@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-02-13T19:42:31Z" name="Suite" finished-at="2020-02-13T19:44:04Z" duration-ms="93256">
+    <groups>
+    </groups>
+    <test started-at="2020-02-13T19:42:31Z" name="Test" finished-at="2020-02-13T19:44:04Z" duration-ms="93256">
+      <class name="test.TESTCreateProject">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.TESTCreateProject@4c371370]" started-at="2020-02-13T14:43:28Z" name="openBrowser" finished-at="2020-02-13T14:43:28Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:test.TESTCreateProject@4c371370]" started-at="2020-02-13T14:43:28Z" name="openApp" finished-at="2020-02-13T14:43:40Z" duration-ms="11758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="projectCreation()[pri:0, instance:test.TESTCreateProject@4c371370]" started-at="2020-02-13T14:43:40Z" name="projectCreation" finished-at="2020-02-13T14:44:03Z" duration-ms="23217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- projectCreation -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:test.TESTCreateProject@4c371370]" started-at="2020-02-13T14:44:03Z" name="closeApp" finished-at="2020-02-13T14:44:04Z" duration-ms="872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TESTCreateProject@4c371370]" started-at="2020-02-13T14:44:04Z" name="closeBrowser" finished-at="2020-02-13T14:44:04Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TESTCreateProject -->
+      <class name="test.TESTCreateCustomer">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.TESTCreateCustomer@18078bef]" started-at="2020-02-13T14:42:45Z" name="openBrowser" finished-at="2020-02-13T14:42:45Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:test.TESTCreateCustomer@18078bef]" started-at="2020-02-13T14:42:45Z" name="openApp" finished-at="2020-02-13T14:42:56Z" duration-ms="11600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="customerCreation()[pri:0, instance:test.TESTCreateCustomer@18078bef]" started-at="2020-02-13T14:42:56Z" name="customerCreation" finished-at="2020-02-13T14:43:04Z" duration-ms="7363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerCreation -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:test.TESTCreateCustomer@18078bef]" started-at="2020-02-13T14:43:04Z" name="closeApp" finished-at="2020-02-13T14:43:05Z" duration-ms="915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TESTCreateCustomer@18078bef]" started-at="2020-02-13T14:43:05Z" name="closeBrowser" finished-at="2020-02-13T14:43:05Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TESTCreateCustomer -->
+      <class name="test.TESTCreateWork">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.TESTCreateWork@799f10e1]" started-at="2020-02-13T14:43:05Z" name="openBrowser" finished-at="2020-02-13T14:43:05Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:test.TESTCreateWork@799f10e1]" started-at="2020-02-13T14:43:05Z" name="openApp" finished-at="2020-02-13T14:43:16Z" duration-ms="11806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="workCreation()[pri:0, instance:test.TESTCreateWork@799f10e1]" started-at="2020-02-13T14:43:16Z" name="workCreation" finished-at="2020-02-13T14:43:27Z" duration-ms="10865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- workCreation -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:test.TESTCreateWork@799f10e1]" started-at="2020-02-13T14:43:27Z" name="closeApp" finished-at="2020-02-13T14:43:28Z" duration-ms="838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TESTCreateWork@799f10e1]" started-at="2020-02-13T14:43:28Z" name="closeBrowser" finished-at="2020-02-13T14:43:28Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TESTCreateWork -->
+      <class name="test.TESTLoginActitime">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.TESTLoginActitime@689604d9]" started-at="2020-02-13T14:42:31Z" name="openBrowser" finished-at="2020-02-13T14:42:31Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:test.TESTLoginActitime@689604d9]" started-at="2020-02-13T14:42:31Z" name="openApp" finished-at="2020-02-13T14:42:44Z" duration-ms="13045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="login()[pri:0, instance:test.TESTLoginActitime@689604d9]" started-at="2020-02-13T14:42:44Z" name="login" finished-at="2020-02-13T14:42:44Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:test.TESTLoginActitime@689604d9]" started-at="2020-02-13T14:42:44Z" name="closeApp" finished-at="2020-02-13T14:42:45Z" duration-ms="948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TESTLoginActitime@689604d9]" started-at="2020-02-13T14:42:45Z" name="closeBrowser" finished-at="2020-02-13T14:42:45Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TESTLoginActitime -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
